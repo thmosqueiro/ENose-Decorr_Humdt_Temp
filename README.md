@@ -17,15 +17,15 @@ Ramon Huerta, Thiago Mosqueiro, Jordi Fonollosa, Nikolai Rulkov, Irene Rodriguez
 Co-authors
 ---
 
-Ramon Huerta, BioCircuits Institute, University of California San Diego
+[Ramon Huerta](http://biocircuits.ucsd.edu/huerta/), BioCircuits Institute, University of California San Diego
 
-Thiago Mosqueiro, BioCircuits Institute, University of California San Diego
+[Thiago Mosqueiro](http://thmosqueiro.vandroiy.com), BioCircuits Institute, University of California San Diego
 
-Jordi Fonollosa, Institute for Bioengineering of Catalunya & University of Barcelona
+[Jordi Fonollosa](https://jordifonollosa.wordpress.com/blog/), Institute for Bioengineering of Catalunya & University of Barcelona
 
-Nikolai Rulkov, BioCircuits Institute, University of California San Diego
+[Nikolai Rulkov](http://biocircuits.ucsd.edu/rulkov/), BioCircuits Institute, University of California San Diego
 
-Irene Rodriguez-Lujan, Escuela Politecnica Superior, Universidad Autonoma de Madrid
+[Irene Rodriguez-Lujan](https://sites.google.com/site/irenerodriguezlujan/), Escuela Politecnica Superior, Universidad Autonoma de Madrid
 
 
 Dependencies
