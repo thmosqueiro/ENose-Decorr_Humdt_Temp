@@ -35,7 +35,7 @@ Co-authors
 
 [Thiago Mosqueiro](http://thmosqueiro.vandroiy.com), BioCircuits Institute, University of California San Diego
 
-[Jordi Fonollosa](https://jordifonollosa.wordpress.com/blog/), Institute for Bioengineering of Catalunya & University of Barcelona
+[Jordi Fonollosa](https://jordifonollosa.wordpress.com/), Institute for Bioengineering of Catalunya & University of Barcelona
 
 [Nikolai Rulkov](http://biocircuits.ucsd.edu/rulkov/), BioCircuits Institute, University of California San Diego
 
