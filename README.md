@@ -27,7 +27,7 @@ Relevant papers
 
 If you find this useful, please star this repository and/or cite our paper:
 
-Ramon Huerta, Thiago Mosqueiro, Jordi Fonollosa, Nikolai Rulkov, Irene Rodriguez-Lujan. Online Decorrelation of Humidity and Temperature in Chemical Sensors for Continuous Monitoring. Chemometrics and Intelligent Laboratory Systems 2016. [Available online](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring).
+Ramon Huerta, Thiago Mosqueiro, Jordi Fonollosa, Nikolai Rulkov, Irene Rodriguez-Lujan. **Online Decorrelation of Humidity and Temperature in Chemical Sensors for Continuous Monitoring.** Chemometrics and Intelligent Laboratory Systems 2016. [Available online](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring).
 
 
 Co-authors
