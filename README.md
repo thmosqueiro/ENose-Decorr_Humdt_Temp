@@ -3,10 +3,12 @@ Online decorrelation of humidity and temperature in chemical sensors for continu
 
 In this repository, you will find snippets of code to exemplify how to
 import, organize and plot data from [a recently published
-paper](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring):
-we reproduce figure 7 and first line in table 3. The datasets is
-publicly available at UCI Machine Learning repository (link should be
-provided soon). The dataset contains recordings of a gas sensor array
+paper](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring)
+where we propose a method for decorrelating humidity and temperature
+from signals of MOX gas sensors. In particular, the code in this
+repository reproduces figure 7 and first line in table 3. The dataset
+is publicly available at UCI Machine Learning repository (link should
+be provided soon) and contains recordings of a gas sensor array
 (picture below) composed of 8 MOX gas sensors, and a temperature and
 humidity sensor. This sensor array was exposed to background home
 activity while subject to two different stimuli: wine and banana. The
