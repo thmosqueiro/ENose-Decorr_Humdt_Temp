@@ -47,7 +47,7 @@ metadata = np.loadtxt('HT_Sensor_metadata.dat', skiprows=1, dtype=str)
 dataset = np.loadtxt('HT_Sensor_dataset.dat', skiprows=1)
 ```
 
-Then, variable metadata has all the metadata, and dataset has the actual recordings. The time series of induction with a given id, say 17, you can use the following piece of code:
+Then, variable metadata has all the metadata, and dataset has the actual recordings. Because file HT_Sensor_dataset.dat is 108MB, it may take a few seconds to load it (in an Intel i7 3.2GHz, it takes about 17 seconds). The time series of induction with a given id, say 17, you can use the following piece of code:
 
 ```
 id = 17.
