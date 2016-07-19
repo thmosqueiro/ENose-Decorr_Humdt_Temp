@@ -1,3 +1,6 @@
+# to avoid having the datasets uploaded to github
+*.dat
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
