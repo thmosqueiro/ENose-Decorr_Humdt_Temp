@@ -32,6 +32,31 @@ If you find this useful, please star this repository and/or cite our paper:
 Ramon Huerta, Thiago Mosqueiro, Jordi Fonollosa, Nikolai Rulkov, Irene Rodriguez-Lujan. **Online Decorrelation of Humidity and Temperature in Chemical Sensors for Continuous Monitoring.** Chemometrics and Intelligent Laboratory Systems 2016. [Available online](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring).
 
 
+Directions for loading the dataset in python
+---
+
+For a quick & dirty example for loading our dataset in python, only numpy is necessary. Assuming that the dataset files are in the same folder, the snippet below is enough to load the data.
+
+```
+import numpy as np
+
+## Importing dataset
+metadata = np.loadtxt('HT_Sensor_metadata.dat', skiprows=1, dtype=str)
+
+## Loading the dataset
+dataset = np.loadtxt('HT_Sensor_dataset.dat', skiprows=1)
+```
+
+Then, variable metadata has all the metadata, and dataset has the actual recordings. The time series of induction with a given id, say 17, you can use the following piece of code:
+
+```
+id = 17.
+timeSeries = dataset[ dataset[:,0] == id, 1:]
+```
+
+The 1 in "1:" above removes the column with id, leaving variable _timeSeries_ with only data from the recording with id 17. 
+
+
 Co-authors
 ---
 
