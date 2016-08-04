@@ -7,8 +7,7 @@ paper](https://www.researchgate.net/publication/305385157_Online_decorrelation_o
 where we propose a method for decorrelating humidity and temperature
 from signals of MOX gas sensors. In particular, the code in this
 repository reproduces figure 7 and first line in table 3. The dataset
-is publicly available at UCI Machine Learning repository (link should
-be provided soon) and contains recordings of a gas sensor array
+is publicly available at [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring) and contains recordings of a gas sensor array
 (picture below) composed of 8 MOX gas sensors, and a temperature and
 humidity sensor. This sensor array was exposed to background home
 activity while subject to two different stimuli: wine and banana. The
@@ -22,6 +21,14 @@ application is to discriminate among background, wine and banana.
 
 <img src="https://raw.githubusercontent.com/thmosqueiro/ENose-Decorr_Humdt_Temp/master/images/GasSensorArray_picture.png" width=300px style="float: left; margin: 0 0 10px 10px;" />
 <img src="https://raw.githubusercontent.com/thmosqueiro/ENose-Decorr_Humdt_Temp/master/images/Sensirion.jpg" width=300px style="float: left; margin: 0 0 10px 10px;" />
+
+
+Download the dataset
+---
+
+The dataset is publicly available at [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring), and contains recordings of a gas sensor array
+(picture below) composed of 8 MOX gas sensors, and a temperature and
+humidity sensor.
 
 
 Relevant papers
