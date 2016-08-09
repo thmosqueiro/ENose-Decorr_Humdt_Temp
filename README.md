@@ -26,9 +26,7 @@ application is to discriminate among background, wine and banana.
 Download the dataset
 ---
 
-The dataset is publicly available at [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring), and contains recordings of a gas sensor array
-(picture below) composed of 8 MOX gas sensors, and a temperature and
-humidity sensor.
+The dataset is publicly available at [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring), and contains recordings of a gas sensor array (see picture above). The size of the zipped dataset is _28MB_.
 
 
 Relevant papers
@@ -36,7 +34,7 @@ Relevant papers
 
 If you find this useful, please star this repository and/or cite our paper:
 
-Ramon Huerta, Thiago Mosqueiro, Jordi Fonollosa, Nikolai Rulkov, Irene Rodriguez-Lujan. **Online Decorrelation of Humidity and Temperature in Chemical Sensors for Continuous Monitoring.** Chemometrics and Intelligent Laboratory Systems 2016. [Available online](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring).
+Ramon Huerta, Thiago Mosqueiro, Jordi Fonollosa, Nikolai Rulkov, Irene Rodriguez-Lujan. **Online Decorrelation of Humidity and Temperature in Chemical Sensors for Continuous Monitoring.** [Chemometrics and Intelligent Laboratory Systems](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring) 2016.
 
 
 Directions for loading the dataset in python
