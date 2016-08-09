@@ -31,5 +31,17 @@ Splitting data into windows of 10min
 ---
 
 
-Running SVM
+
+
+Supervised learning
 ---
+
+In the original papel we have used the [Inhibitory Support Vector
+Machine](http://www.sciencedirect.com/science/article/pii/S092540051300590X)
+(click [here](http://biocircuits.ucsd.edu/huerta/software.html) for an
+implementation), we will use in this example a regular Support Vector
+Machine despite not being Fisher consistent for multiclass problems
+(see [this
+paper](http://projecteuclid.org/euclid.ejs/1444316740)). The only
+extra dependence needed for this section is
+[scikit-learn](http://scikit-learn.org/).
