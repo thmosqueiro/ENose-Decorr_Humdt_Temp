@@ -30,7 +30,25 @@ Below is the result:
 Splitting data into windows of 10min
 ---
 
+Because the main topic of the paper is online analyses, one possible
+methodology is to split the dataset in chunks of equal size. In the
+paper, we divided each induction in time series of 10min of
+length. The length of the chunks is determined by variable _deltaT_
+(in hours).
 
+The script to perform this operation is called _Features_split.py_,
+and should be located in this directory. Assuming that the dataset is
+also in this folder, simply run the following
+```
+python Features_split.py
+```
+Once it is finished (may take 20 seconds even in fast computers), it
+will save two files: "_Dataset_Split10min.npy_" with the data
+reformated for supervised training, and "_Dataset_SplitHash.npy_" with
+the indices for each induction. The hash will be used during the
+cross-validation to ensure fair training (see description in our
+[paper](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring)). This
+routine was optimized by only using numpy functions.
 
 
 Supervised learning
