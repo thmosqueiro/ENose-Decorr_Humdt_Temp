@@ -26,7 +26,7 @@ dataset = np.loadtxt('HT_Sensor_dataset.dat', skiprows=1)
 ## Useful definitions
 
 deltaT = 1./6.  # 10 minutes in hours
-window = 10*11
+window = 10*10
 onemin = 1./60.
 
 def numWindows(tot, deltaT):
@@ -66,13 +66,14 @@ for ind in np.array( metadata[:20,0], dtype=int) :
         indx += 1
     
 
-    induct = data_subsamp[ np.logical_and( data_subsamp[:,0] >= 0 , data_subsamp[:,0] < tfmin-1  )  , : ]
+    induct = data_subsamp[ np.logical_and( data_subsamp[:,0] >= 0 , data_subsamp[:,0] < tfmin-1  )  , 1: ]
     induct = np.reshape(induct, (induct.shape[0] * induct.shape[1]))
     
     ## Constructing the moving window
     shape = induct.shape[:-1] + (induct.shape[-1] - window + 1, window)
     strides = induct.strides + (induct.strides[-1],)
-    dataSplit = np.lib.stride_tricks.as_strided(induct, shape=shape, strides=strides)
+    dataSplit = np.lib.stride_tricks.as_strided(induct, shape=shape, strides=strides)[0:-1:10]
+
     
     result.append( dataSplit )
     
