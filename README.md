@@ -76,6 +76,12 @@ Co-authors
 [Irene Rodriguez-Lujan](https://sites.google.com/site/irenerodriguezlujan/), Escuela Politecnica Superior, Universidad Autonoma de Madrid
 
 
+Acknowledgements
+---
+
+* [Xuezhen (Tina) Hong](https://github.com/XuezhenHong), for reviewing and providing feedback on the code.
+
+
 Dependencies
 ---
 
