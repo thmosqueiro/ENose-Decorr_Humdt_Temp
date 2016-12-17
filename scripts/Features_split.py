@@ -42,6 +42,7 @@ def numWindows(tfmin, deltaT):
 
 ## Array to store features
 result    = []
+hashtable = []
 
 
 ## Splitting
@@ -137,11 +138,13 @@ for ind in np.array( metadata[:,0], dtype=int) :
         
         print " Finished, now saving." 
         result.append( dataSplit )
-
+        hashtable.append( ind )
+        
         print ""
 
 
 print ">> Saving the final dataset"
 np.save("Dataset_Split10min", result)
+np.save("Dataset_Split10min_hashtable", hashtable)
 
 print "The end, my friend."
