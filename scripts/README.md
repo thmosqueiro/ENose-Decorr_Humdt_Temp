@@ -24,7 +24,7 @@ script), get presentations with id 17 and 19 and plot them.
 
 Below is the result:
 
-<img src="https://raw.githubusercontent.com/thmosqueiro/ENose-Decorr_Humdt_Temp/master/script/Huerta_etal_2016_Figure7.png" width=300px style="float: left; margin: 0 0 10px 10px;" />
+<img src="https://raw.githubusercontent.com/thmosqueiro/ENose-Decorr_Humdt_Temp/master/scripts/Huerta_etal_2016_Figure7.png" width=300px style="float: left; margin: 0 0 10px 10px;" />
 
 
 Splitting data into windows of 10min
@@ -42,13 +42,22 @@ also in this folder, simply run the following
 ```
 python Features_split.py
 ```
-Once it is finished (may take 20 seconds even in fast computers), it
-will save two files: "_Dataset_Split10min.npy_" with the data
-reformated for supervised training, and "_Dataset_SplitHash.npy_" with
-the indices for each induction. The hash will be used during the
-cross-validation to ensure fair training (see description in our
+
+It takes about 20 seconds. Once it is finished, it will save two
+files: "_Dataset_Split10min.npy_" with the data reformated for
+supervised training, and "_Dataset_SplitHash.npy_" with the indices
+for each induction. The hash will be used during the cross-validation
+to ensure fair training (see description in our
 [paper](https://www.researchgate.net/publication/305385157_Online_decorrelation_of_humidity_and_temperature_in_chemical_sensors_for_continuous_monitoring)). This
 routine was optimized by only using numpy functions.
+
+There are a few important considerations to be taken into
+account. Many inductions have issues with missing data points. This
+is, actually, part of what makes this dataset interesting. However, it
+also requires special treatments. In this example script, we have
+performed linear interpolation to fill in missing points, except when
+the missing points happened at the beggining of the induction. In this
+case we simply removed the first few windows from the final dataset.
 
 
 Supervised learning
