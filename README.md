@@ -26,7 +26,7 @@ application is to discriminate among background, wine and banana.
 Download the dataset
 ---
 
-The dataset is publicly available at [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring), and contains recordings of a gas sensor array (see picture above). The size of the zipped dataset is _28MB_.
+The dataset is publicly available at [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/datasets/Gas+sensors+for+home+activity+monitoring), and contains recordings of a gas sensor array (see picture above). We kindly request that you cite our paper if you use our dataset (see [Relevant papers](https://github.com/thmosqueiro/ENose-Decorr_Humdt_Temp#relevant-papers) below). The size of the zipped dataset is _28MB_.
 
 
 Relevant papers
